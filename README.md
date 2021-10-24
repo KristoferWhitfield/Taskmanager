@@ -1,7 +1,7 @@
 # Taskmanager
 Here's an application where users can enter their name and task so teammates can keep track of projects. 
 
-![image](Taskmanager/task.jpg)
+![GitHub Logo](Taskmanager/task.jpg)
 
 ## Hows It's Made:
 
