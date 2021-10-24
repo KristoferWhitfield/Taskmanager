@@ -1,8 +1,7 @@
 # Taskmanager
 Here's an application where users can enter their name and task so teammates can keep track of projects. 
 
-![screenshot](https://user-images.githubusercontent.com/78818078/task.jpg)
-
+![screenshot](https://user-images.githubusercontent.com/78818078/116952550-e42a2980-ac58-11eb-92a3-task.JPG)
 ## Hows It's Made:
 
 Made using HTML, CSS, Javascript, Node.js, JSON, Express, EJS, MongoDB.
