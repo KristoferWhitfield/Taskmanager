@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+</head>
+<body class="tasksPage">
+<section class= "main">
+    <h1>Tasks Manager</h1>
+</section>
+<section class="tasksSection">
+    <input placeholder="enter name" type="text" class="name" name="tasks">
+
+    <input placeholder="add a task" type="text" class="task" name="tasks">
+    <button id="enter">enter</button>
+    <ul class="tasksList">
+        <% for(var i=0; i<tasks.length; i++) {%>
+            <li class="message">
+                <span>
+                    <%=tasks[i].name%>
+                </span>
+                <span>
+                    <%=tasks[i].taskInfo%>
+                </span>
+                <span>
+                    <%=tasks[i]._id%>
+                </span>
+                <button class="delete" data-id= "<%=tasks[i]._id%>">delete</button>
+            </li>
+            <% } %>
+    </ul>
+</section>
+
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
